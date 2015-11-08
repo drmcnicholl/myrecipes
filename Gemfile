@@ -5,10 +5,10 @@ ruby '2.2.1'
 gem 'rails', '4.2.1'
 
 # Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.0'
+gem 'sass-rails', '~> 5.0.1'
 
 #added by Duncan
-gem 'bootstrap-sass', '~> 3.3.5'
+gem 'bootstrap-sass', '~> 3.3.5.1'
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
@@ -29,6 +29,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 #new stuff from lecture 36 to add images
 gem 'carrierwave', '0.10.0'
 gem 'mini_magick', '3.8.0'
+gem 'will_paginate', '3.0.7'
+gem 'bootstrap-will_paginate', '0.0.10'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
